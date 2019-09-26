@@ -16,13 +16,12 @@ const Notifs = props => {
     transitionEnterTimeout,
     transitionLeaveTimeout
   } = props;
-
   const renderedNotifications = notifications.map(notification => {
     if (CustomComponent) {
       return (
         <CSSTransition
           key={getter(notification, 'id')}
-          className={`${componentClassName}-transition`}
+          classNames={`${componentClassName}-transition`}
           timeout={{
             exit: transitionLeaveTimeout,
             enter: transitionEnterTimeout

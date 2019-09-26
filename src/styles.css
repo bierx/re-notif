@@ -3,7 +3,7 @@
   transition : opacity .5s ease-in;
 }
 
-.notif-transition-enter-active {
+.notif-transition-enter-done {
   opacity : 1;
 }
 

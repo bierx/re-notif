@@ -14,23 +14,23 @@
         margin: 0 auto;
         padding: 0 1rem;
       }
-      .notif-enter {
-        opacity: 0.01;
-        transition: opacity .5s ease-in;
-      }
+      .notif-transition-enter {
+  opacity    : 0.01;
+  transition : opacity .5s ease-in;
+}
 
-      .notif-enter.notif-enter-active {
-        opacity: 1;
-      }
+.notif-transition-enter-done {
+  opacity : 1;
+}
 
-      .notif-leave {
-        opacity: 1;
-        transition: opacity .5s ease-in;
-      }
+.notif-transition-exit {
+  opacity    : 1;
+  transition : opacity .5s ease-in;
+}
 
-      .notif-leave.notif-leave-active {
-        opacity: 0.01;
-      }
+.notif-transition-exit-active {
+  opacity : 0.01;
+}
     </style>
   </head>
   <body>
