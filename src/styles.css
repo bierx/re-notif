@@ -7,15 +7,15 @@
   opacity : 1;
 }
 
-.notif-transition-leave {
+.notif-transition-exit {
   opacity    : 1;
   transition : opacity .5s ease-in;
 }
 
-.notif-transition-leave-active {
+.notif-transition-exit-active {
   opacity : 0.01;
 }
-
+ 
 .notif {
   position      : relative;
   font          : 1rem normal Helvetica, sans-serif;

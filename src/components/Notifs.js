@@ -41,7 +41,7 @@ const Notifs = props => {
     return (
       <CSSTransition
         key={getter(notification, 'id')}
-        className={`${componentClassName}-transition`}
+        classNames={`${componentClassName}-transition`}
         timeout={{
           exit: transitionLeaveTimeout,
           enter: transitionEnterTimeout
