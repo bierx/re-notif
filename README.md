@@ -1,6 +1,4 @@
-# `redux-notifications`
-
-> :warning: The previous package `re-notif` has been deprecated on NPM and renamed to `redux-notifications`. A list of changes can be found in the Changelog. Please update your applications accordingly.
+# `redux-notifications-2`
 
 [React](https://github.com/facebook/react) & [Redux](https://github.com/rackt/redux) based notifications center.
 
@@ -10,7 +8,7 @@ Thanks to Redux, the notification objects are maintained within Redux Store's St
 
 ##### 1. Installation
 
-`npm install --save redux-notifications`
+`npm install --save redux-notifications-2`
 
 ##### 2. The next thing you need to do is to add the `redux-notifications` `reducer` to Redux.
 ```js
@@ -36,15 +34,15 @@ import { Notifs } from 'redux-notifications';
 ```
 
 ##### 4. Optionally import default CSS
-`redux-notifications` uses [react-css-transition-group](https://facebook.github.io/react/docs/animation.html#high-level-api-reactcsstransitiongroup) with the following classes:
+`redux-notifications-2` uses [react-css-transition-group](https://facebook.github.io/react/docs/animation.html#high-level-api-reactcssCSSTransition) with the following classes:
 - .notif-transition-enter
 - .notif-transition-enter-active
-- .notif-transition-leave
-- .notif-transition-leave-active
+- .notif-transition-exit
+- .notif-transition-exit-active
 
 To import the default stylesheet:
 ```js
-import 'redux-notifications/lib/styles.css';
+import 'redux-notifications-2/lib/styles.css';
 ```
 
 ## Sending notifications
